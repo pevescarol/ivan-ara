@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montaga&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf7ee;
+  height: 100%;
+}
+
+.text__main {
+  font-family: 'Montaga', serif;
+}
+
+.cursiva {
+  font-family: 'Dancing Script', cursive;
+}

@@ -13,6 +13,7 @@ import fiestaIcon from '../../public/fiesta.svg'
 import ribbonFiesta from '../../public/fiesta01.png'
 import giftIcon from '../../public/regalo.svg'
 import {FaChevronDown} from 'react-icons/fa'
+import dresscode from '../../public/dresscode2.svg'
 
 export default function Home() {
 
@@ -83,7 +84,7 @@ export default function Home() {
         {/* <Image src={backBg} alt="background" width={450} height={1000} className="absolute w-full h-full top-0 z-10" /> */}
         <Image src={topHeader} alt="background" width={500} height={400} className="absolute object-cover  top-0 z-10" />
         <div className="mt-12 mb-8">
-          <Image src={logo} alt="logo IA" width={200} height={330} className="z-50" />
+          <Image src={logo} alt="logo IA" width={180} height={330} className="z-50" />
         </div>
         <div className="relative -top-4 text-center z-50">
           <span className="cursiva text-[#ADA084] text-2xl">¡Nos casamos!</span>
@@ -143,11 +144,16 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="max-w-[498px] w-screen bg-[#A5B2A9] h-[230px] flex flex-col items-center justify-center gap-4 mt-16">
+          <Image src={dresscode} alt="dresscode" width={60} height={80} />
+          <p className="text-[#faf7ee] text-lg text-center">Vestimenta <br /><span className="font-bold">CASUAL</span></p>
+        </div>
+
         <div className="flex flex-col items-center justify-center mt-8 mb-20 z-50">
           <div className="mt-12">
             <Image src={giftIcon} alt="" width={50} height={50} className="" />
           </div>
-          <p className="text-5xl text-center cursiva text-[#746B58] pt-4">¡Tu presencia es  <br />el mejor regalo!</p>
+          <p className=" text-4xl md:text-5xl text-center cursiva text-[#746B58] pt-4">¡Tu presencia es  <br />el mejor regalo!</p>
           <p className="text-[#ADA084] text-lg text-center mt-4">Pero si deseas hacernos <br /> un <span className="font-bold">regalo de bodas</span>, te dejamos nuestros datos:</p>
           <div className="mt-4 py-4 w-[300px] rounded-lg border-dotted border-[4px] border-[#A5B2A9] flex flex-col items-center">
             <span className="text-[#746B58] font-bold">ALIAS: IVANYARA</span>

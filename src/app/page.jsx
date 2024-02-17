@@ -146,7 +146,7 @@ export default function Home() {
 
         <div className="max-w-[498px] w-screen bg-[#A5B2A9] h-[230px] flex flex-col items-center justify-center gap-4 mt-16">
           <Image src={dresscode} alt="dresscode" width={60} height={80} />
-          <p className="text-[#faf7ee] text-lg text-center">Vestimenta <br /><span className="font-bold">CASUAL</span></p>
+          <p className="text-[#faf7ee] text-lg text-center">Código de vestimenta <br /><span className="font-bold">CASUAL</span></p>
         </div>
 
         <div className="flex flex-col items-center justify-center mt-8 mb-20 z-50">
